@@ -1,8 +1,8 @@
 
-from task1 import *
+from task2 import *
 
 if __name__ == '__main__':
-    SKO_a(200, 2, 50, 100)
+    print(get_middles_first_part(200, 60, 70, 3))
     print('\n\n\n\n')
-    SKO_b(200, 2, 50, 100)
+    print(get_middles_second_part(200, 320, 70, 3))
 
